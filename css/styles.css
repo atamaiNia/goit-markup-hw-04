@@ -377,14 +377,9 @@ img {
   margin-left: 30px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-  background-color: var(--hover-color);
-}
-
 .clients-item:hover .clients-icon,
 .clients-item:focus .clients-icon {
-  fill: var(--social-hover-color);
+  fill: var(--hover-color);
 }
 
 .clients-link {
